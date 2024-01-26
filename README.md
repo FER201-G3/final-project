@@ -2,6 +2,15 @@
 
 ⚡️ Final project for the React course - Báo giá thi công nội thất
 
+## API Reference
+
+[https://mockapi.io/clone/65a729b894c2c5762da6444d](https://mockapi.io/clone/65a729b894c2c5762da6444d)
+
+```http
+  GET https://65a729b894c2c5762da6444c.mockapi.io/api/v1/projects
+  GET https://65a729b894c2c5762da6444c.mockapi.io/api/v1/projects/:id
+```
+
 ## Getting Started
 
 ```bash

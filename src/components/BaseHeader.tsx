@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const BaseHeader = () => {
   return (
     <header className="relative">
@@ -9,14 +11,14 @@ const BaseHeader = () => {
               <div className="flex h-16 items-center justify-between">
                 {/* Logo (lg+) */}
                 <div className="hidden lg:flex lg:items-center">
-                  <a href="#">
+                  <Link to="/">
                     <span className="sr-only">Your Company</span>
                     <img
                       className="h-8 w-auto"
                       src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/603px-Amazon_logo.svg.png?20220213013322"
                       alt=""
                     />
-                  </a>
+                  </Link>
                 </div>
                 <div className="hidden h-full lg:flex">
                   {/* Mega menus */}
